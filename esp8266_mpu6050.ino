@@ -3,9 +3,9 @@
 const uint8_t MPU6050SlaveAddress = 0x68;
 
 // Select SDA and SCL pins for I2C communication 
-const uint8_t scl = 13;  //D7
-const uint8_t sda = 12;  //D6
-const uint8_t button = 4; //D2
+const uint8_t scl = 5;  //D1
+const uint8_t sda = 4;  //D2
+const uint8_t button = 0; //D3
 
 int buttonState=0;
 // sensitivity scale factor respective to full scale setting provided in datasheet 
